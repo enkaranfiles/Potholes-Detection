@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>p_50.jpg</filename>
+	<path>C:\Users\enes\darkflow\train\images\p_50.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>720</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>pothole</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>202</xmin>
+			<ymin>147</ymin>
+			<xmax>998</xmax>
+			<ymax>712</ymax>
+		</bndbox>
+	</object>
+</annotation>
