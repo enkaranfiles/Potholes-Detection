@@ -1,1 +1,1 @@
-# Darkflow Pothole Objected Detection
+# Darkflow Pothole Object Detection
