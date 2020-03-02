@@ -1,5 +1,8 @@
 # Custom Object Detection by using Darkflow
 
+## Real-time object detection and classification
+Paper: [version 1](https://arxiv.org/pdf/1506.02640.pdf), [version 2](https://arxiv.org/pdf/1612.08242.pdf).
+
 There is various way to implement YOLO. I have tried to Pytorch implementation, Darknet Implementation
 until so far. But we are building a system that interatcts with Flutter Application. So,
 darkflow is a tensorflow translation of Darknet. I have used Anaconda and jupyer notebook.
