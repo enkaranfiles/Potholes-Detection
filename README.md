@@ -29,15 +29,18 @@ Purpose of doing this is that there is some confilicting dependicies to new tens
 To obtain an easiest and efficient way is upgrading tensorflow version for using tf_conver API 
 which is developed by Google.
 
-### Installing
+### Installing some requirements
 
-A step by step series of examples that tell you how to get a development env running
+A step by step series of examples that tell you how to get a development env running.
 
-Say what the step will be
+Download the DARKFLOW repository. You can find it under this link. (https://github.com/thtrieu/darkflow)
+
+For the purpose of training custom model. You need the start with initail weights which is obtained by under this link.(https://pjreddie.com/darknet/yolo/) or you can download by bash command.
 
 ```
-Give the example
+wget https://pjreddie.com/media/files/yolov3.weights
 ```
+You can download yolov3 weights in this way.
 
 And repeat
 
