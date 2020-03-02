@@ -26,7 +26,7 @@ pip install "tensorflow==1.9.*"
 ```
 
 Purpose of doing this is that there is some confilicting dependicies to new tensorflow version.
-To obtain an easiest and efficient way is upgrading tensorflow version for using tf_conver API 
+To obtain an easiest and efficient way is upgrading tensorflow version for using tf_convert API 
 which is developed by Google.
 
 ### Installing some requirements
@@ -76,30 +76,23 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+The model has trained and converting the tflite module for RoadPulse application. For details on our code of conduct, and the process, you can conctact me via e-mail.
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **Enes Karanfil** - *Student at TOBB University of Economics and Technology* - enkaranfiles@gmail.com
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-## Acknowledgments
+## Milestones
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Paper based research and training process
+* YOLOV3 -tiny based-
+* Realtime Streaming
+* One-pass CNN structure
+* RoadPulse
