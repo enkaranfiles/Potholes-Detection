@@ -117,6 +117,12 @@ To obtain a state-of-art result in Pothole Detection, we need to collect massive
     
     ...
     ```
+4. Change `labels.txt` to include the label(s) you want to train on (number of labels should be the same as the number of classes you set in `tiny-yolo-voc-custom.cfg` file). In my case, `labels.txt` will contain 1 labels.
+
+    ```
+    pothole
+    ```
+5. Reference the `tiny-yolo-voc-custom.cfg` model when you train.
 
 ### Break down into end to end tests
 
