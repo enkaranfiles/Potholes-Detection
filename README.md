@@ -100,7 +100,7 @@ To obtain a state-of-art result in Pothole Detection, we need to collect massive
     
     ...
     ```
-3. In `tiny-yolo-voc-custom.cfg`, change filters in the [convolutional] layer (the second to last layer) to num * (classes + 5). In our case, num is 5 and classes are 1 so 5 * (1 + 5) = 40 therefore filters are set to 30.
+3. In `tiny-yolo-voc-custom.cfg`, change filters in the [convolutional] layer (the second to last layer) to num * (classes + 5). In our case, num is 5 and classes are 1 so 5 * (1 + 5) = 30 therefore filters are set to 30.
     
     ```python
     ...
@@ -109,7 +109,7 @@ To obtain a state-of-art result in Pothole Detection, we need to collect massive
     size=1
     stride=1
     pad=1
-    filters=30  ## 5 * (1 + 5) = 40
+    filters=30  ## 5 * (1 + 5) = 30
     activation=linear
 
     [region]
