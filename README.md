@@ -71,9 +71,9 @@ until finished
 
 End with an example of getting some data out of the system or using it for a little demo
 
-## Running the tests
+## Training Custom Object Detection Model
 
-Explain how to run the automated tests for this system
+To obtain a state-of-art result in Pothole Detection, we need to collect massive dataset. I have collected the dataset from open-source platforms and connections from other companies. I have resized them, I have spent 2 hours to annotate them. Hence, to best of our knowledge, we need to see first preliminary results, so I have annotated the small amount of data and ou can see in the jupyter notebook file, we can find the pothole at given a image with .36 confidence score (labeled and trained on 50 images.).
 
 ### Break down into end to end tests
 
