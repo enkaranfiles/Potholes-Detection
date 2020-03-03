@@ -85,6 +85,22 @@ To obtain a state-of-art result in Pothole Detection, we need to collect massive
 
 1. Create a copy of the configuration file `tiny-yolo-voc.cfg` and rename it according to your preference `tiny-yolo-voc-custom.cfg` (It is crucial that you leave the original `tiny-yolo-voc.cfg` file unchanged). Here `tiny-yolo-voc-custom.cfg` is for 1 classes, you can change the name as you wish.<br>
 
+2. In `tiny-yolo-voc-custom.cfg`, change classes in the [region] layer (the last layer) to the number of classes you are going to train for. In our case, classes are set to 1.
+    
+    ```python
+    ...
+
+    [region]
+    anchors = 1.08,1.19,  3.42,4.41,  6.63,11.38,  9.42,5.11,  16.62,10.52
+    bias_match=1
+    classes=1  ## 1 classes
+    coords=4
+    num=5
+    softmax=1
+    
+    ...
+    ```
+
 ### Break down into end to end tests
 
 Explain what these tests test and why
