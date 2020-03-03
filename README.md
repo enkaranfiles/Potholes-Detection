@@ -32,6 +32,12 @@ Purpose of doing this is that there is some confilicting dependicies to new tens
 To obtain an easiest and efficient way is upgrading tensorflow version for using tf_convert API 
 which is developed by Google.
 
+### Working Environment
+
+I have trained the model on:
+1 - NVDIA 2080 SLI GPU
+2 - 24 Core Processor, its able to run the program with 40 threads.
+
 ### Set up Darkflow Repository
 You can choose one of the following three ways to get started with darkflow. If you are using Python 3 on windows you will need to install Microsoft Visual C++ 14.0. Here you can find installation process, why it is required, references etc or you can try stackoverflow.
 
