@@ -32,6 +32,24 @@ Purpose of doing this is that there is some confilicting dependicies to new tens
 To obtain an easiest and efficient way is upgrading tensorflow version for using tf_convert API 
 which is developed by Google.
 
+### Set up Darkflow Repository
+You can choose one of the following three ways to get started with darkflow. If you are using Python 3 on windows you will need to install Microsoft Visual C++ 14.0. Here you can find installation process, why it is required, references etc or you can try stackoverflow.
+
+1. Just build the Cython extensions in place. NOTE: If installing this way you will have to use `./flow` in the cloned darkflow directory instead of `flow` as darkflow is not installed globally.
+    ```
+    python3 setup.py build_ext --inplace
+    ```
+
+2. Let pip install darkflow globally in dev mode (still globally accessible, but changes to the code immediately take effect)
+    ```
+    pip install -e .
+    ```
+
+3. Install with pip globally
+    ```
+    pip install .
+    ```
+
 ### Installing some requirements
 
 A step by step series of examples that tell you how to get a development env running.
