@@ -125,7 +125,7 @@ To obtain a state-of-art result in Pothole Detection, we need to collect massive
 5. Reference the `tiny-yolo-voc-custom.cfg` model when you train.
 
 `flow --model cfg/tiny-yolo-voc-custom.cfg --load weights/tiny-yolo-voc.weights --train --annotation train/annot --dataset train/images --gpu 1.0 --epochs 1000`
-<br><br>Spesifying the model `--model cfg/tiny-yolo-voc-custom.cfg` and the weights `--load weights/tiny-yolo-voc.weights`. After that specify the path for the annatations `--annotation train/anoot` and images `--dataset train/images`. Use `--gpu 1.0` to use gpu for speed, if you do not  have GPU just don't use this part. You can specify the number of epochs. By default it is 1000. However it can be stopped anytime. I recommend to keep the lose below 1.
+<br><br>Spesifying the model `--model cfg/tiny-yolo-voc-custom.cfg` and the weights `--load weights/tiny-yolo-voc.weights`. After that specify the path for the annatations `--annotation train/anoot` and images `--dataset train/images`. Use `--gpu 1.0` to use gpu for speed, if you do not  have GPU just don't use this part. You can specify the number of epochs. By default it is 1000. However it can be stopped anytime. I recommend to keep the lose below 1. Darkflow saving training step every 250 iteration under the `/ckpt` folder. From my experiments, I have seen the loss at least approximately 1.50, but loading more data it will be less than 1.
 <br><br>
 
 ### Break down into end to end tests
