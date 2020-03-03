@@ -79,6 +79,12 @@ To obtain a state-of-art result in Pothole Detection, we need to collect massive
 - Check this [video](https://www.youtube.com/watch?v=p0nR2YsCY_U&feature=youtu.be) to learn how to use lebelImg.<br>
 - Github repo for labelImg can be found [here](https://github.com/tzutalin/labelImg#installation)
 
+## Training on your own dataset
+
+*The steps below assume we want to use tiny YOLO and our dataset has 1 classes*
+
+1. Create a copy of the configuration file `tiny-yolo-voc.cfg` and rename it according to your preference `tiny-yolo-voc-custom.cfg` (It is crucial that you leave the original `tiny-yolo-voc.cfg` file unchanged). Here `tiny-yolo-voc-custom.cfg` is for 1 classes, you can change the name as you wish.<br>
+
 ### Break down into end to end tests
 
 Explain what these tests test and why
