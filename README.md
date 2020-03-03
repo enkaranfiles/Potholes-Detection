@@ -74,6 +74,10 @@ End with an example of getting some data out of the system or using it for a lit
 ## Training Custom Object Detection Model
 
 To obtain a state-of-art result in Pothole Detection, we need to collect massive dataset. I have collected the dataset from open-source platforms and connections from other companies. I have resized them, I have spent 2 hours to annotate them. Hence, to best of our knowledge, we need to see first preliminary results, so I have annotated the small amount of data and ou can see in the jupyter notebook file, we can find the pothole at given a image with .36 confidence score (labeled and trained on 50 images.).
+#### Annotation
+- To annotate images download [labelImg](https://tzutalin.github.io/labelImg/). 
+- Check this [video](https://www.youtube.com/watch?v=p0nR2YsCY_U&feature=youtu.be) to learn how to use lebelImg.<br>
+- Github repo for labelImg can be found [here](https://github.com/tzutalin/labelImg#installation)
 
 ### Break down into end to end tests
 
