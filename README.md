@@ -172,27 +172,6 @@ tflite_convert \
   --input_data_type=FLOAT
 ```
 
-
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-
-## Contributing
-
-The model has trained and converting the tflite module for RoadPulse application. For details on our code of conduct, and the process, you can conctact me via e-mail.
-
 ## Authors
 
 * **Enes Karanfil** - *Student at TOBB University of Economics and Technology* - enkaranfiles@gmail.com
